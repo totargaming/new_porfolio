@@ -107,6 +107,14 @@ function Dock({
           isHovered.set(0);
           mouseX.set(Infinity);
         }}
+        onTouchMove={(e) => {
+          isHovered.set(1);
+          mouseX.set(e.touches[0].pageX);
+        }}
+        onTouchEnd={() => {
+          isHovered.set(0);
+          mouseX.set(Infinity);
+        }}
         className={cn(
           'mx-auto flex w-fit gap-1.5 sm:gap-4 rounded-2xl bg-gray-50 px-4 dark:bg-neutral-900',
           className
@@ -151,6 +159,8 @@ function DockItem({ children, className }: DockItemProps) {
       onHoverEnd={() => isHovered.set(0)}
       onFocus={() => isHovered.set(1)}
       onBlur={() => isHovered.set(0)}
+      onTouchStart={() => isHovered.set(1)}
+      onTouchEnd={() => isHovered.set(0)}
       className={cn(
         'relative inline-flex items-center justify-center',
         className
