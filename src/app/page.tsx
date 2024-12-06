@@ -11,8 +11,8 @@ export const siteConfig = {
   name: "Elvis Tran",
   description: "I am a Aspiring Computer Science Student",
   // TODO: add your own image and web 
-  ogImage: "https://mdTaquiImam.vercel.app/og-image.png",
-  url: "https://mdTaquiImam.vercel.app",
+  ogImage: "https://elvis-tran.vercel.app/og-image.png",
+  url: "https://elvis-tran.vercel.app/",
 }
 export default function Home() {
   return (

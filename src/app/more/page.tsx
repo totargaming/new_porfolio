@@ -62,9 +62,10 @@ const morePage = () => {
         More
       </Badge>
       <div className="flex flex-col gap-3">
-        <Heading>More</Heading>
+        <Heading>Nothing More :)</Heading>
       </div>
-      <div className="h-auto w-full flex flex-wrap gap-3 p-2">
+      {/* // Nothing to see here */}
+      {/* <div className="h-auto w-full flex flex-wrap gap-3 p-2">
         {morelink.map((value, indx) => {
           
           return (
@@ -94,7 +95,7 @@ const morePage = () => {
             </FramerWrapper>
           );
         })}
-      </div>
+      </div> */}
     </div>
   );
 };
