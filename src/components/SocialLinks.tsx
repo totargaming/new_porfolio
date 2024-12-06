@@ -7,7 +7,7 @@ import FramerWrapper from "./animation/FramerWrapper";
 const SocialLinks = () => {
   const links = [
     { name: "Facebook", link: "https://www.facebook.com/elvistran.here/", icon: <Facebook /> },
-    { name: "Twitter", link: "https://x.com/ElvisTran263659", icon: <Twitter /> },
+    { name: "Twitter", link: "https://x.com/elvistran_here", icon: <Twitter /> },
     { name: "Linkedin", link: "https://www.linkedin.com/in/elv1stran/", icon: <Linkedin /> },
     // { name: "External", link: "", icon: <ExternalLink /> },
   ];

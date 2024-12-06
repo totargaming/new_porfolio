@@ -70,7 +70,7 @@ export const metadata: Metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     images: [`${siteConfig.url}/og-image.png`],
-    creator: "@ElvisTran263659",
+    creator: "@elvistran_here",
   },
   icons: {
     icon: "/favicon.ico",
